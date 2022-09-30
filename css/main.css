@@ -1,0 +1,20 @@
+:root {
+  --blue-color: #59BAF7;
+  --red-color: #F95953;
+  --black-color: #0b0b0b;
+  --white-color-1: #fdfdfd;
+  --white-color-2: #dbdbdb;
+  --main-text: 'Roboto', sans-serif;
+  --second-text: 'Nunito', sans-serif;;
+}
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+body{
+  background:  var(--white-color-1);
+  font-family: var(--main-text);
+
+
+}
+
