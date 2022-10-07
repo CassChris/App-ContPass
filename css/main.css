@@ -54,3 +54,181 @@ a{
   justify-content: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************  PAGE INSTALL-APP    ************** */
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main{
+  text-align: center;
+  font-family: var(--second-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue-color);
+  margin: 0 auto;
+}
+
+.main__title{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.main__img{
+  width: 100px;
+}
+
+/* ****ABOUT**** */
+
+.about__cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card{
+  margin: 10px;
+  background: var(--red-color);
+  color: #eae8e8;
+}
+.card:nth-child(2){
+  background: var(--blue-color);
+}
+
+.card:nth-child(3){
+  background: rgb(101, 178, 101);
+}
+
+.about__title, .benefits__title{
+  font-family: var(--second-text);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* ****BENEFITS**** */
+.benefits{
+  margin-top: 50px;
+}
+.corousel-caption{
+  background: rgba(0, 0, 0, 0.568);
+}
+
+
+
+/* ****DOWLOAD**** */
+.dowload{
+  margin: 50px 0;
+}
+.dowload__link{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  background: var(--blue-color);
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+
+span.material-icons{
+  font-size: 3em;
+
+}
+
+.dowload__link h4{
+  margin: 0 0 0 20px;
+}
+/* *****FOOTER**** */
+footer{
+  background: var(--black-color);
+  width: 100%;
+  color: var(--white-color-2);
+  text-align: center;
+  padding: 20px;
+}
+
+footer p{
+  margin: 0;
+}
