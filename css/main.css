@@ -4,8 +4,8 @@
   --black-color: #0b0b0b;
   --white-color-1: #fdfdfd;
   --white-color-2: #dbdbdb;
-  --main-text: 'Roboto', sans-serif;
-  --second-text: 'Nunito', sans-serif;
+  --main-text: 'Roboto', sans-serif; /* texto */
+  --second-text: 'Nunito', sans-serif; /* titulo */
 }
 *,*::after,*::before{
   box-sizing: border-box;
@@ -219,6 +219,10 @@ h2{
 /* ****DOWLOAD**** */
 .dowload{
   margin: 50px 0;
+}
+.dowload__title{
+  font-family: var(--second-text);
+  font-weight: bold;
 }
 .dowload__link{
   display: flex;
